@@ -6,6 +6,7 @@ dependencies:
   - pip:
     - nbgitpuller
     - sphinx-gallery
+    - glob
     - csv
     - numpy
     - subprocess
