@@ -2,15 +2,15 @@ name: sparkingCuriosity
 channels:
   - conda-forge
 dependencies:
-  - python=3.7
-  - pip=3
+  - python == 3.7
+  - pip == 21.0
   - pip:
     - nbgitpuller
     - sphinx-gallery
-    - numpy
-    - sos
-    - sos-notebook
-    - matplotlib=2.2.3
-    - nltk=3.3
-    - networkx=1.11
-    - gensim=3.5.0
+    - numpy == 1.19.2
+    - sos == 0.21.5
+    - sos-notebook == 0.21.7
+    - matplotlib == 2.2.3
+    - nltk == 3.3
+    - networkx == 1.11
+    - gensim == 3.5.0
