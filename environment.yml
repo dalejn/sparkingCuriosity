@@ -1,0 +1,25 @@
+name: sparkingCuriosity
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - pip:
+    - nbgitpuller
+    - sphinx-gallery
+    - glob
+    - csv
+    - numpy
+    - subprocess
+    - os
+    - pandas
+    - re
+    - sos
+    - sos-notebook
+    - json
+    - pickle
+    - urllib
+    - matplotlib
+    - nltk
+    - networkx
+    - gensim
+    - metaknowledge
