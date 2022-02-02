@@ -10,6 +10,8 @@ dependencies:
     - numpy == 1.19.2
     - sos == 0.21.5
     - sos-notebook == 0.21.7
+    - sos-python == 0.18.4
+    - sos-r == 0.19.6
     - matplotlib == 2.2.3
     - nltk == 3.3
     - networkx == 1.11
