@@ -8,16 +8,9 @@ dependencies:
     - nbgitpuller
     - sphinx-gallery
     - numpy
-    - subprocess
-    - os
-    - pandas
-    - re
     - sos
     - sos-notebook
-    - json
-    - pickle
-    - urllib
-    - matplotlib
-    - nltk
-    - networkx
-    - gensim
+    - matplotlib=2.2.3
+    - nltk=3.3
+    - networkx=1.11
+    - gensim=3.5.0
