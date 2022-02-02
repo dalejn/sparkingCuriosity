@@ -2,12 +2,11 @@ name: sparkingCuriosity
 channels:
   - conda-forge
 dependencies:
-  - python
+  - python=3.7
+  - pip=3
   - pip:
     - nbgitpuller
     - sphinx-gallery
-    - glob
-    - csv
     - numpy
     - subprocess
     - os
