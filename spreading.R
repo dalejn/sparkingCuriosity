@@ -5,8 +5,12 @@ library(RColorBrewer)
 
 # Data from http://konect.uni-koblenz.de/networks/sociopatterns-infectious
 #infect <- read.table('/Users/dalezhou/Downloads/sociopatterns-infectious/out.sociopatterns-infectious', skip = 2, sep = ' ', stringsAsFactors = FALSE)
-infect <- read.table('/Users/dalezhou/Desktop/Dropbox/service/kamenArt/networkDynamics.txt', skip = 0, sep = ' ', stringsAsFactors = FALSE)
-infect <- read.table('/Users/dalezhou/Desktop/Dropbox/service/kamenArt/networkDynamicsLabels.txt', skip = 0, sep = ' ', stringsAsFactors = FALSE)
+
+# Code from https://gist.github.com/thomasp85/eee48b065ff454e390e1
+# https://gist.github.com/jalapic/612036977d9f9c773107681bc4a46d58
+
+infect <- read.table('/home/jovyan/networkDynamics.txt', skip = 0, sep = ' ', stringsAsFactors = FALSE)
+infect <- read.table('/home/jovyan/networkDynamicsLabels.txt', skip = 0, sep = ' ', stringsAsFactors = FALSE)
 infect$V3 <- NULL 
 #infect$words <- words$V2
 names(infect) <- c('from', 'to', 'time')
@@ -28,7 +32,6 @@ lay <- createLayout(subGr, 'igraph', algorithm = 'fr')
 # Then we reassign the full graph with edge trails
 attr(lay, 'graph') <- infectGraph
 
-
 # Now we create the graph with timebins as frame
 p <- ggraph(data = lay, layout = 'fr', aes(frame = timebins)) + 
   geom_node_point(size = .1, col = "white") +
@@ -49,11 +52,8 @@ p <- ggraph(data = lay, layout = 'fr', aes(frame = timebins)) +
 # And then we animate
 animation::ani.options(interval=0.1)
 # gganimate(p, '/Users/dalezhou/Desktop/Dropbox/service/kamenArt/animation_louvainNodes_coloredSparks_500.gif', title_frame = FALSE)
-gganim <- gganimate(p, '/Users/dalezhou/Desktop/Dropbox/service/kamenArt/sparkingCuriosity_1600x1600_darkBlue.gif', title_frame = FALSE,
+gganim <- gganimate(p, '/home/jovyan/sparkingCuriosity_1600x1600_darkBlue.gif', title_frame = FALSE,
          ani.width = 1600, ani.height = 1600, res=300)
 
 # to do
-# change color palete. preferably drop yellow nodes?
-# color edges by spectral? something more spark-ey? make the high degree activations whiter and the lower degree activations more orange-yellow
 # add changing text
-
