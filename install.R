@@ -8,9 +8,9 @@ dir.create(path = Sys.getenv("R_LIBS_USER"), showWarnings = FALSE, recursive = T
 # update everything and install to local user library path
 update.packages(ask = FALSE, instlib = Sys.getenv("R_LIBS_USER"))
 
-install.packages('/home/jovyan/gganimate-0.1.1.tar.gz', repos = NULL, type = "source")
-install.packages('/home/jovyan/ggraph-d15fd149babe9ad32316474b9a178e019f376ba6.zip', repos = NULL, type = "source")
-install.packages(c('RColorBrewer', 'igraph', 'ggplot2'))
+#install.packages('/home/jovyan/gganimate-0.1.1.tar.gz', repos = NULL, type = "source")
+#install.packages('/home/jovyan/ggraph-d15fd149babe9ad32316474b9a178e019f376ba6.zip', repos = NULL, type = "source")
+install.packages(c('RColorBrewer', 'igraph', 'ggplot2', 'devtools', 'magick', 'ellipsis', 'vctrs'))
 
 #install.packages('stats')
 #install.packages('graphics')
