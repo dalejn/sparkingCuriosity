@@ -14,7 +14,9 @@ Visualizations of cognitive and language graph methods from:
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/dalejn/sparkingCuriosity/HEAD?urlpath=/tree/)
 2. Go to the `/data` folder and upload a .txt file containing the sequence of words that you want to animate dynamics atop a network made from those words.
 ![data GUI](img/dataGUI.png)
+---
 ![upload GUI](img/uploadGUI.png)
+---
 ![confirm GUI](img/confirmUploadGUI.png)
 3. Go back to the first directory level, open, and run the notebook `cleanText.ipynb`
 ![back GUI](img/backToMainGUI.png)
