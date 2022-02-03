@@ -2,7 +2,7 @@ name: sparkingCuriosity
 channels:
   - conda-forge
 dependencies:
-  - python == 3.8.10
+  - python == 3.7.0
   - pip == 21.0
   - pip:
     - gensim == 3.5.0
