@@ -30,3 +30,7 @@ Visualizations of cognitive and language graph methods from:
 
 6. Go back to the first directory level and save your animated network dynamics in .gif form. If you would like to visualize the static network using Gephi or other software, we also provide the network saved to `network.graphml` for download.
 ![download GUI](img/downloadGUI.png)
+
+## Gallery
+
+<img src="img/gallery/sparkingCuriosityTandy.gif" width="250"/> <img src="img/gallery/sparkingCuriosityZhang.gif" width="250"/> 
