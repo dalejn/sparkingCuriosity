@@ -6,7 +6,7 @@ Animate movement in word-vector similarity space
 **Sparking Curiosity**<br>
 Exhibited at [Reveal: The Art of Reimagining Scientific Discovery](https://www.american.edu/cas/museum/2021/reveal-scientific-discovery-kamen.cfm)<br>
 Museum at the Katzen Arts Center, American University<br>
-Created by [Dale Zhou](dalezhou.com), [David Lydon-Staley](https://www.asc.upenn.edu/people/faculty/david-lydon-staley-phd), [Perry Zurn](perryzurn.com), [Dani Bassett](https://complexsystemsupenn.com/personal)<br>
+Created by [Dale Zhou](https://www.dalezhou.com), [David Lydon-Staley](https://www.asc.upenn.edu/people/faculty/david-lydon-staley-phd), [Perry Zurn](https://www.perryzurn.com), [Dani Bassett](https://complexsystemsupenn.com/personal)<br>
 Organized and curated by [Rebecca Kamen](https://rebeccakamen.com/) and [Sarah Tanguy](https://sarahtanguy.com/)<br>
 
 Sparking Curiosity was created to depict the network dynamics of [Rebecca Kamen](https://rebeccakamen.com/)'s art process. This network was created from transcribed interviews, where each circle represents a word describing an idea that shaped her artistic journey; and each line indicates how similar those words are to each other. The colors represent communities of ideas that are more alike. Every frame of the video summarizes the spark of hundreds of ideas and their immediate neighbors spoken during the interview. 
