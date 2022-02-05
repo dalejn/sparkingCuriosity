@@ -1,9 +1,8 @@
 # Sparking Curiosity
-Animate movement in word-vector similarity space
+Animate movement across word networks
 
 <img src="img/repo_pic1.gif" width="250"/> <img src="img/repo_pic2.gif" width="250"/> 
 
-**Sparking Curiosity**<br>
 Exhibited at [Reveal: The Art of Reimagining Scientific Discovery](https://www.american.edu/cas/museum/2021/reveal-scientific-discovery-kamen.cfm)<br>
 Museum at the Katzen Arts Center, American University<br>
 Created by [Dale Zhou](https://www.dalezhou.com), [David Lydon-Staley](https://www.asc.upenn.edu/people/faculty/david-lydon-staley-phd), [Perry Zurn](https://www.perryzurn.com), [Dani Bassett](https://complexsystemsupenn.com/personal)<br>
