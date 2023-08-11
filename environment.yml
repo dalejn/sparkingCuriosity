@@ -2,13 +2,11 @@ name: sparkingCuriosity
 channels:
   - conda-forge
 dependencies:
-  - python == 3.8
-  - pip == 21.0
-  - pip:
-    - gensim
-    - nbgitpuller
-    - sphinx-gallery
-    - numpy
-    - matplotlib 
-    - nltk
-    - networkx 
+  - python = 3.8
+  - gensim
+  - nbgitpuller
+  - sphinx-gallery
+  - numpy
+  - matplotlib 
+  - nltk
+  - networkx 
